@@ -1,0 +1,63 @@
+@import "reset.css";
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,400i,700&subset=cyrillic');
+
+body {
+  color: #FFF;
+  background-color: #000;
+
+  font-family: 'Roboto', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+h2 {
+  width: 480px;
+  margin-bottom: 56px;
+
+  font-size: 30px;
+  font-weight: 700;
+}
+
+p {
+  width: 480px;
+  margin-bottom: 40px;
+
+  font-size: 24px;
+  font-style: italic;
+}
+
+p + p {
+  text-align: right;
+
+  font-size: 20px;
+}
+
+header {
+  position: fixed;
+
+  display: flex;
+
+  width: 100%;
+  padding: 15px 0 15px 0;
+
+  background-color: #000;
+
+  font-size: 25px;
+
+  justify-content: space-between;
+
+}
+
+header a {
+  padding-right: 20px;
+}
+
+.fame {
+  display: flex;
+  overflow: hidden;
+
+  width: 100%;
+  height: 800px;
+}
