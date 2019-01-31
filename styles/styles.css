@@ -1,15 +1,29 @@
 @import "reset.css";
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,400i,700&subset=cyrillic');
 
+* {
+  box-sizing: border-box
+}
+
+main {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
 body {
   color: #FFF;
   background-color: #000;
 
   font-family: 'Roboto', sans-serif;
+  line-height: 170%;
 }
 
 a {
   text-decoration: none;
+}
+
+h1 {
+  padding-left: 20px;
 }
 
 h2 {
@@ -29,6 +43,7 @@ p {
 }
 
 p + p {
+  /* margin-bottom: 200px; */
   text-align: right;
 
   font-size: 20px;
@@ -36,6 +51,7 @@ p + p {
 
 header {
   position: fixed;
+  z-index: 100;
 
   display: flex;
 
@@ -54,10 +70,55 @@ header a {
   padding-right: 20px;
 }
 
-.fame {
+.logo {
+  display: flex;
+}
+
+.fame, .texts, .conserts, .friendship {
   display: flex;
   overflow: hidden;
 
-  width: 100%;
-  height: 800px;
+  margin-bottom: 30px;
+
+  justify-content: space-between;
+}
+
+
+.fametext, .consertstext {
+  margin: 170px 0 0 170px;
+}
+
+.textstext, .friendshiptext {
+  margin: 170px 200px 0 0;
+}
+
+.slava {
+  padding-left: 316px;
+}
+
+.two {
+  width: 500px;
+  height: 700px;
+}
+
+.ionka {
+  padding-left: 50px;
+}
+
+.all {
+margin-left: -500px;
+}
+
+.abstractrap {
+  margin: 350px 0 350px 0;
+
+  text-align: center;
+
+  justify-content: center;
+}
+
+footer {
+  padding-bottom: 30px;
+
+  text-align: center;
 }
