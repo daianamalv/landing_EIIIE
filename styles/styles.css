@@ -15,11 +15,12 @@ body {
   background-color: #000;
 
   font-family: 'Roboto', sans-serif;
-  line-height: 170%;
 }
 
 a {
   text-decoration: none;
+
+  color: #C4C4C4;
 }
 
 h1 {
@@ -28,10 +29,12 @@ h1 {
 
 h2 {
   width: 480px;
+  margin: 0 auto;
   margin-bottom: 56px;
 
   font-size: 30px;
   font-weight: 700;
+  line-height: 130%;
 }
 
 p {
@@ -40,10 +43,10 @@ p {
 
   font-size: 24px;
   font-style: italic;
+  line-height: 130%;
 }
 
 p + p {
-  /* margin-bottom: 200px; */
   text-align: right;
 
   font-size: 20px;
@@ -88,12 +91,16 @@ header a {
   margin: 170px 0 0 170px;
 }
 
-.textstext, .friendshiptext {
-  margin: 170px 200px 0 0;
+.textstext {
+  margin: 120px 200px 0 100px;
+}
+
+.friendshiptext {
+  margin: 170px 200px 0 100px;
 }
 
 .slava {
-  padding-left: 316px;
+  padding-left: 24vw;
 }
 
 .two {
@@ -110,15 +117,37 @@ margin-left: -500px;
 }
 
 .abstractrap {
-  margin: 350px 0 350px 0;
+  margin: 200px 0;
 
   text-align: center;
 
   justify-content: center;
+  align-items: center;
+}
+
+.abstractrap h2 {
+  width: 650px;
+}
+
+.abstractrap a {
+  padding: 10px 20px;
+
+  color: #C4C4C4;
+  border-radius: 5px;
+  background-color: #000;
+}
+
+.abstractrap a + a {
+  color: #000;
+  background-color: #C4C4C4;
+
+  font-weight: 700;
 }
 
 footer {
   padding-bottom: 30px;
 
   text-align: center;
+
+  line-height: 130%;
 }
