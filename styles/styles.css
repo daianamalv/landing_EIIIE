@@ -28,8 +28,7 @@ h1 {
 }
 
 h2 {
-  width: 480px;
-  margin: 0 auto;
+  width: 40vw;
   margin-bottom: 56px;
 
   font-size: 30px;
@@ -38,7 +37,7 @@ h2 {
 }
 
 p {
-  width: 480px;
+  width: 40vw;
   margin-bottom: 40px;
 
   font-size: 24px;
@@ -100,7 +99,7 @@ header a {
 }
 
 .slava {
-  padding-left: 24vw;
+  padding-left: 10vw;
 }
 
 .two {
@@ -126,7 +125,9 @@ margin-left: -500px;
 }
 
 .abstractrap h2 {
-  width: 650px;
+  width: 51vw;
+  margin: 0 auto;
+  margin-bottom: 56px;
 }
 
 .abstractrap a {
@@ -150,4 +151,102 @@ footer {
   text-align: center;
 
   line-height: 130%;
+}
+
+.logosvg {
+  z-index: 99;
+
+  width: 24px;
+  height: 16px;
+  margin: 0 10px 0 10px;
+}
+
+@media (max-width: 1025px)  {
+
+  .slava {
+    padding-left: 6vw;
+  }
+
+  .all {
+    margin-left: -600px;
+
+  }
+
+  .friendshiptext {
+    margin: 170px 200px 0 123px;
+  }
+
+@media (max-width: 769px) {
+
+  header {
+    font-size: 18px;
+  }
+
+  h2 {
+    width: 40vw;
+    margin-bottom: 56px;
+
+    font-size: 24px;
+  }
+
+  p {
+    margin-bottom: 40px;
+
+    font-size: 18px;
+  }
+
+  .fame {
+    flex-direction: column;
+  }
+
+  .friendship {
+    flex-direction: column-reverse;
+  }
+
+  .slava, .all {
+    width: 100vw;
+    padding-left: 0;
+  }
+
+  .fame h2, .friendship h2, .fame p, .friendship p {
+    width: 66vw;
+  }
+
+  .fametext {
+    margin-top: 170px;
+    margin-left: 16vw;
+  }
+
+  .two {
+    width: 50vw;
+    height: 70vw;
+  }
+
+  .textstext, .consertstext {
+    margin-top: 100px;
+    margin-left: 8vw;
+   }
+
+   .ionka {
+     width: 50vw;
+     height: 60vw;
+   }
+
+   .all {
+     width: 100vw;;
+     margin-left: 0;
+   }
+
+   .friendshiptext {
+     margin-top: 100px;
+     margin-left: 16vw;
+   }
+
+
+
+
+
+
+
+
 }
